@@ -1,0 +1,78 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the chat interface */
+.chat-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat box where messages will be displayed */
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Individual chat message styling */
+.chat-message {
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 8px;
+    background-color: #e1f5fe;
+    display: inline-block;
+}
+
+/* Container for input and emoji buttons */
+.input-container {
+    display: flex;
+    gap: 5px;
+}
+
+/* Styling for input fields */
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    padding: 8px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container for YouTube video URL input */
+.youtube-container {
+    margin-top: 10px;
+}
+
+/* Styling for embedded YouTube player */
+#youtube-player {
+    margin-top: 10px;
+}
